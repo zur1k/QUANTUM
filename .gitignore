@@ -1,0 +1,5 @@
+#Skip package-lock
+package-lock.json
+
+#Skip node_modules files
+node_modules

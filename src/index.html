@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>quantum</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <form class="header__container">
+           <div class="header__logo">
+               QUANTUM
+           </div>
+           <div class="header__search">
+            <div class="header__search-input-wrapper">
+                <input class="header__search-input" type="text" placeholder="Search goods">
+            </div>
+            <div class="header__search-dropdown ">
+                <div class="header-select" data-select>
+                    <div data-select-title class="header-select__title">CATEGORY</div>
+                    <div  class="header-select__dropdown hidden">
+                        <div data-select-item="Mobile" class="header-select__dropdown-item">MOBILE</div>
+                        <div data-select-item="Tablet" class="header-select__dropdown-item">TABLET</div>
+                        <div data-select-item="Laptop" class="header-select__dropdown-item">LAPTOP</div>                   
+                    </div>
+                </div>
+                <select class="hidden" name="" id="selectReal" value="none">
+                    <option value="none">CATEGORY</option>
+                    <option value="Mobile">MOBILE</option>
+                    <option value="Tablet">TABLET</option>
+                    <option value="Laptop">LAPTOP</option>
+                </select>
+            </div>
+            <div class="header__search-button-wrapper">
+                <button class="header__search-button" type="submit">
+                    <img src="image/icons/search_icon.svg" alt="">
+                </button>
+            </div>
+           </div>
+           <div class="header__links">
+               <a href="#" class="header-link header-link--notify">
+                   <span class="header-link__icon"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" class="icon-svg"><g><g><path  d="M16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2c1.099 0 2-.9 2-2s-.901-2-2-2zM4.008 18c0 1.1.89 2 1.99 2 1.102 0 2-.9 2-2s-.898-2-2-2c-1.1 0-1.99.9-1.99 2zM14.55 9H7.53l-.13-.27L5.16 4h12.15zM3.27 0H0v2H2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96C4 14.1 4.9 15 6 15h12v-2H6.42a.256.256 0 0 1-.25-.25l.03-.12L7.1 11h7.45c.75 0 1.409-.41 1.75-1.03l3.861-7.01-.16-.96H4.21z"/></g></g></svg></span>
+                   <span class="header-link__text">2 items</span>
+               </a>
+           </div>
+        </form>
+    </header>
+    
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

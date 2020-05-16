@@ -1,15 +1,22 @@
+.header__links {
+  display: flex;
+  justify-content: space-between;
+}
 .header-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  .icon-svg {
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+  svg {
     fill: grey;
   }
   &:hover {
-    color: #1875f0;
+    color: blue;
     text-decoration: none;
-    .icon-svg {
-      fill: #1875f0;
+    svg {
+      fill:blue;
       // stroke #1875f0;
     }
   }
@@ -18,7 +25,7 @@
 .header-link__icon {
   width: 21px;
   height: 21px;
-  margin-right: 21px;
+  margin-right: 18px;
   position: relative;
 }
 .header-link--notify .header-link__icon::after {
@@ -26,7 +33,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #1875f0;
+  background-color: blue;
   position: absolute;
   top: -8px;
   right: -7px;
@@ -34,5 +41,5 @@
 .header-link__text {
   font-size: 14px;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 1;
 }

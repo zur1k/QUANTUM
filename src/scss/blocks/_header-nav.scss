@@ -22,7 +22,7 @@ $border: 2px solid #f5f5f5;
     align-items: center;
     flex-grow: 1;
 }
-.header_nav__link {
+.header-nav__link {
 color: #808080;
 font-size: 14px;
 font-weight: 500;
@@ -37,5 +37,12 @@ line-height: 1;
 }
 .header-nav__select {
 
+    display: flex;
 
+
+}
+.header-nav__select-item {
+    &:not(:last-child) {
+        border-right: $border;
+    }
 }

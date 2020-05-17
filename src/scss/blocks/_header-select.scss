@@ -59,13 +59,17 @@
 }
 
 .header-select.header-select--nav {
+  padding-left: 28px;
+  padding-right: 28px;
 
   .header-select__title  {
+    width: auto;
     font-size: 14px;
     text-transform: none;
     color: #b3b3b3;
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
+    padding-right: 20px;
   }
 }

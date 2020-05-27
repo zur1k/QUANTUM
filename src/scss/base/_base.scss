@@ -13,6 +13,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: inherit;
+    line-height: 1;
+}
 
 .container 
 {
